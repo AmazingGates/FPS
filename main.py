@@ -1,5 +1,6 @@
 # This is where we will have our main.run() code, which will initialize and run our program
 
+import streamlit as st
 import pygame as pg 
 import sys
 from settings import * # This is how we import our settings.py file to our main.py file
@@ -13,6 +14,8 @@ from object_handler import * # This is how we import our object_handler to our m
 from weapon import * # This is how we import our weapon file to our main.py file
 from sound import * # This is how we import our sound file to our main.py file
 from pathfinding import * # This is how we import our pathfinding file to our main.py file
+
+st.header("Welcome To Alia's War Maze")
 
 
 class Game:
